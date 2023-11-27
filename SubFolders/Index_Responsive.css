@@ -1,0 +1,864 @@
+
+@media only screen and (max-width: 1566px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        width: 100%;
+        gap: 36%;
+        align-items: center;
+    }
+
+    .background-mid {
+        background-image: url(https://en.tankiwiki.com/images/en/b/b7/Loading_Scrren_2022.png);
+        -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
+        mask-image: linear-gradient(to top, transparent 0%, black 30%);
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1360px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        width: 100%;
+        gap: 34%;
+        align-items: center;
+    }
+
+    .background-mid {
+        background-image: url(https://en.tankiwiki.com/images/en/b/b7/Loading_Scrren_2022.png);
+        -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
+        mask-image: linear-gradient(to top, transparent 0%, black 30%);
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .TextNews {
+        text-align: center;
+        margin: 1% 57% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .TextUpdates {
+        text-align: center;
+        margin: 1% 57% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .TextVlogs {
+        text-align: center;
+        margin: 1% 57% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 35%;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        width: 100%;
+        gap: 32%;
+        align-items: center;
+    }
+
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 35%;
+    }
+
+}
+
+@media only screen and (max-width: 990px) {
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 50%;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        width: 100%;
+        gap: 30%;
+        align-items: center;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 30%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        width: 100%;
+        gap: 28%;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        width: 100%;
+        gap: 26%;
+        align-items: center;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 27%;
+    }
+
+    .footer {
+        border-top: solid 1px #6a8b9c45;
+        color: white;
+        grid-row: 3;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .SocialmediaTO {
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        font-size: 150%;
+        justify-content: center;
+        margin: 2% 0% 2% 0%;
+        color: white;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        width: 100%;
+        margin: 3%;
+    }
+
+    .col1 {
+        text-align: center;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        width: 100%;
+        gap: 23%;
+        align-items: center;
+    }
+
+
+    .TextNews {
+        text-align: center;
+        margin: 1% 28% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .TextUpdates {
+        text-align: center;
+        margin: 1% 28% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .TextVlogs {
+        text-align: center;
+        margin: 1% 28% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+}
+
+
+@media only screen and (max-width: 722px) {
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        width: 100%;
+        gap: 23%;
+        align-items: center;
+    }
+
+
+    .TextNews {
+        text-align: center;
+        margin: 1% 28% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .TextUpdates {
+        text-align: center;
+        margin: 1% 28% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .TextVlogs {
+        text-align: center;
+        margin: 1% 28% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 634px) {
+    .background-mid {
+        background-image: url(https://en.tankiwiki.com/images/en/thumb/7/72/Wall_railgun.jpg/430px-Wall_railgun.jpg);
+        -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
+        mask-image: linear-gradient(to top, transparent 0%, black 30%);
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2%;
+        align-items: center;
+    }
+
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin: 35% 0% 0% 12%;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    #Buttonplay {
+        visibility: hidden;
+    }
+
+
+    .TextNews {
+        text-align: center;
+        margin: 1% 28% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .TextUpdates {
+        text-align: center;
+        margin: 1% 28% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+
+    .TextVlogs {
+        text-align: center;
+        margin: 1% 28% 5% 0%;
+        font-size: 150%;
+        visibility: hidden;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2%;
+        align-items: center;
+    }
+
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 17%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 2%;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 460px) {
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 4%;
+        align-items: center;
+    }
+
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin: 35% 0% 0% 12%;
+        font-weight: bolder;
+
+        text-transform: uppercase;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 7%;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background: rgba(13, 36, 48, .5);
+        padding: 1% 1% 1% 1%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 7%;
+        align-items: center;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 12%;
+    }
+
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        margin: 35% 0% 0% 12%;
+        font-weight: bolder;
+        font-size: small;
+        text-transform: uppercase;
+    }
+
+}
+
+@media only screen and (max-width: 419px) {
+
+    .background-midTOES {
+        background-image: none;
+        -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
+        mask-image: linear-gradient(to top, transparent 0%, black 30%);
+
+        z-index: -2;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 348px) {
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 5%;
+    }
+}
+
+@media only screen and (max-width: 342px) {
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 3.5%;
+    }
+}
+
+@media only screen and (max-width: 338px) {
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 3.5%;
+    }
+}
+
+
+@media only screen and (max-width: 338px) {
+
+    .img-news,
+    .img-updates {
+        width: 250px;
+        height: 300;
+    }
+
+    .img-vlogs {
+        width: 250px;
+        height: 160px;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 0% 10% 15%;
+    }
+}
+
+@media only screen and (max-width: 316px) {
+    .footer {
+        font-size: smaller;
+        width: 100%;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        width: 100%;
+        margin: 7% 7% 7% 16%;
+    }
+
+    .SocialmediaTO {
+        display: flex;
+        flex-direction: row;
+        gap: 9%;
+        font-size: 150%;
+        justify-content: center;
+        margin: 5% 0% 10% 10%;
+        color: white;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 25% 0% 5%;
+    }
+
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 10%;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    #screen-1 {
+        width: 98%;
+    }
+
+    .Welcome-Title {
+        margin: 0% 0% 0% 12%;
+        font-size: 60%;
+    }
+
+    .Welcome-sub-text {
+        text-align: justify;
+        margin: 12% 0% 0% 9%;
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 316px) {
+
+    header{
+width: 100%;
+    }
+    .footer {
+        font-size: smaller;
+        width: 100%;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 25% 0% 10%;
+    }
+
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 10%;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    #screen-1 {
+        width: 87%;
+    }
+
+    .Welcome-Title {
+        margin: 0% 0% 0% 12%;
+        font-size: 60%;
+    }
+
+    .Welcome-sub-text {
+        text-align: justify;
+        margin: 12% 0% 0% 9%;
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (max-width: 254px) {
+
+    .footer {
+        font-size: smaller;
+        width: 100%;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        width: 100%;
+        margin: 7% 7% 7% 16%;
+    }
+
+    .SocialmediaTO {
+        display: flex;
+        flex-direction: row;
+        gap: 9%;
+        font-size: 150%;
+        justify-content: center;
+        margin: 5% 0% 10% 10%;
+        color: white;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 25% 0% 5%;
+    }
+
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 10%;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    #screen-1 {
+        width: 98%;
+    }
+
+    .Welcome-Title {
+        margin: 0% 0% 0% 12%;
+        font-size: 60%;
+    }
+
+    .Welcome-sub-text {
+        text-align: justify;
+        margin: 12% 0% 0% 9%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 252px) {
+
+    .footer {
+        font-size: smaller;
+        width: 100%;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        width: 100%;
+        margin: 7% 7% 7% 16%;
+    }
+
+    .SocialmediaTO {
+        display: flex;
+        flex-direction: row;
+        gap: 9%;
+        font-size: 150%;
+        justify-content: center;
+        margin: 5% 0% 10% 10%;
+        color: white;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 25% 0% 5%;
+    }
+
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 10%;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    #screen-1 {
+        width: 98%;
+    }
+
+    .Welcome-Title {
+        margin: 0% 0% 0% 12%;
+        font-size: 60%;
+    }
+
+    .Welcome-sub-text {
+        text-align: justify;
+        margin: 12% 0% 0% 9%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+
+    .footer {
+        font-size: smaller;
+        width: 100%;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        width: 100%;
+        margin: 7% 7% 7% 16%;
+    }
+
+    .SocialmediaTO {
+        display: flex;
+        flex-direction: row;
+        gap: 9%;
+        font-size: 150%;
+        justify-content: center;
+        margin: 5% 0% 10% 10%;
+        color: white;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 25% 0% 5%;
+    }
+
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 10%;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    #screen-1 {
+        width: 98%;
+    }
+
+    .Welcome-Title {
+        margin: 0% 0% 0% 12%;
+        font-size: 60%;
+    }
+
+    .Welcome-sub-text {
+        text-align: justify;
+        margin: 12% 0% 0% 9%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 246px) {
+
+    .footer {
+        font-size: smaller;
+        width: 100%;
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        width: 100%;
+        margin: 7% 7% 7% 16%;
+    }
+
+    .SocialmediaTO {
+        display: flex;
+        flex-direction: row;
+        gap: 9%;
+        font-size: 150%;
+        justify-content: center;
+        margin: 5% 0% 10% 10%;
+        color: white;
+    }
+
+    .newsandmore {
+        display: block;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: 10% 25% 0% 5%;
+    }
+
+    #MenuHeader {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 10%;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    #screen-1 {
+        width: 98%;
+    }
+
+    .Welcome-Title {
+        margin: 0% 0% 0% 12%;
+        font-size: 60%;
+    }
+
+    .Welcome-sub-text {
+        text-align: justify;
+        margin: 12% 0% 0% 9%;
+        width: 100%;
+    }
+}

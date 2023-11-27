@@ -1,0 +1,332 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-button:increment,
+.contenedor::-webkit-scrollbar-button {
+    display: none;
+}
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #46df11;
+    border-radius: 20px;
+
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track-piece {
+    background-color: rgba(30, 57, 78);
+}
+
+
+
+.background-mxTOES {
+    background-image: url(../Assets/Bg-image.png);
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    opacity: 40%;
+    height: 100%;
+}
+
+.background-midTOES {
+    background-image: url(https://en.tankiwiki.com/images/en/b/bc/Tankers_day_2022.png);
+    -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
+    mask-image: linear-gradient(to top, transparent 0%, black 30%);
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+}
+
+.background-alphaTOES {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(30, 57, 78);
+    opacity: .85;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: rgba(13, 36, 48, .95);
+    padding: 1% 1% 1% 1%;
+    display: flex;
+    gap: 39%;
+    align-items: center;
+}
+
+#MenuHeader {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 100%;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+#Buttonplay {
+    background-color: #3bb21b;
+    padding: 1% 2% 1% 2%;
+    border: 2px solid #46df11;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#Buttonplay:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 13px 2px #44DC14;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.menucontent:hover {
+    color: #46df11;
+    transition: 0.5s;
+}
+
+.WelcomeText {
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    width: 90%;
+    margin: 4% 0% 0% 4%;
+    align-self: flex-end;
+}
+
+.Welcome-sub-text {
+    margin: 2% 0% 0% 0%;
+    text-align:justify;
+}
+
+
+
+
+#more-content-button-arrow {
+
+    text-align: center;
+    position: relative;
+    animation: mousedown infinite linear 1s;
+}
+
+#more-content-button-mouse {
+    text-align: center;
+    position: relative;
+    margin: 24% 0% 0% 0%;
+}
+
+@keyframes mousedown {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 10px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.uil {
+    color: #3bb21b;
+    font-size: 300%;
+}
+
+
+
+#screen-2 {
+    margin-top: 1.5%;
+}
+
+.img-news,
+.img-updates,
+.img-vlogs {
+    border-radius: 10px;
+}
+
+.img-news:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 16px 1px #3bb21b;
+}
+
+.img-updates:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 16px 1px #3bb21b;
+}
+
+.img-vlogs:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 0px 16px 1px #3bb21b;
+}
+
+.newsandmore {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10%;
+    margin: 10% 0% 10% 0%;
+}
+
+
+.footer {
+    border-top: solid 1px #6a8b9c45;
+    color: white;
+    columns: 3;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.col1 {
+    text-align: center;
+
+}
+
+.col3 {
+    text-align: center;
+}
+
+
+ul>li {
+
+    list-style: none;
+    margin-bottom: 2%;
+}
+
+.col1,
+.col2,
+.col3 {
+    width: 100%;
+    margin: 1%;
+}
+
+.linkfooter {
+    color: #46df11;
+}
+
+.officialsite:hover {
+    color: #46df11;
+}
+
+
+
+.TextNews {
+    text-align: center;
+    margin: 5% 0% 0% 0%;
+    font-size: 150%;
+    visibility: hidden;
+    color: white;
+}
+
+
+
+.TextUpdates {
+    text-align: center;
+    margin: 5% 0% 0% 0%;
+    font-size: 150%;
+    visibility: hidden;
+    color: white;
+}
+
+.TextVlogs {
+    text-align: center;
+    margin: 5% 0% 0% 0%;
+    font-size: 150%;
+    visibility: hidden;
+    color: white;
+}
+
+.img-newsContainer:hover .TextNews {
+    visibility: visible;
+}
+
+.img-UpdatesContainer:hover .TextUpdates {
+    visibility: visible;
+}
+
+.img-VlogsContainer:hover .TextVlogs {
+    visibility: visible;
+}
+
+.SocialmediaTO {
+    display: flex;
+    gap: 5%;
+    font-size: 150%;
+    justify-content: center;
+    margin: 2% 0% 2% 0%;
+    color: white;
+}
+
+.fa-facebook:hover {
+    cursor: pointer;
+    color: #0866ff;
+    transition: 0.5s;
+}
+
+.fa-instagram:hover {
+    cursor: pointer;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    transition: 0.5s;
+}
+
+.fa-discord:hover {
+    cursor: pointer;
+    color: #7289da;
+    transition: 0.5s;
+}
+
+.fa-youtube:hover {
+    cursor: pointer;
+    color: #FF0000;
+    transition: 0.5s;
+}
+
+.fa-twitch:hover {
+    cursor: pointer;
+    color: #6441a5;
+    transition: 0.5s;
+}
+
+.BackButton:hover{
+    color: #46df11;
+    text-decoration: none;
+}
+

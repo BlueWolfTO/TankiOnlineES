@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+details>summary {
+    list-style: none;
+    background-color: rgba(68, 220, 20, 0.5);
+    padding: 2%;
+    border: 2px solid #44DC14;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+
+details>p {
+    margin: 2%;
+    text-align: justify;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
+
+.infoContainer {
+    background: linear-gradient(90deg, rgba(17, 168, 223, 0.326) 0%, rgba(67, 151, 168, 0) 25%);
+    padding: 1%;
+    color: white;
+    border-bottom: solid 1px #6a8b9c45;
+}
+
+.nombresdeusuarioSpoiler {
+    margin: 2% 0% 0% 0%;
+    list-style: none;
+    width: 60%;
+}
+
+.nombresdeusuarioSpoiler:hover {
+    cursor: pointer;
+}
+
+.titleQA {
+    margin: 3% 0% 0% 0%;
+    text-align: center;
+}
+
+.Q-AContainer {
+    margin: 0% 0% 3% 28%;
+}
+
+ul>li {
+
+    list-style: disc;
+}
+
+#linkfooter{
+    list-style: none;
+}
