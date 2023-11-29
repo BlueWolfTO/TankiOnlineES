@@ -4,7 +4,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         width: 100%;
@@ -33,7 +33,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         width: 100%;
@@ -91,7 +91,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         width: 100%;
@@ -124,7 +124,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         width: 100%;
@@ -146,7 +146,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         width: 100%;
@@ -160,7 +160,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         width: 100%;
@@ -209,13 +209,18 @@
     }
 }
 
+@media only screen and (max-width: 800px) {
+
+    
+}
+
 @media only screen and (max-width: 720px) {
 
     header {
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         width: 100%;
@@ -256,7 +261,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         width: 100%;
@@ -305,7 +310,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         flex-direction: column;
@@ -359,7 +364,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         flex-direction: column;
@@ -384,7 +389,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         flex-direction: column;
@@ -401,7 +406,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         flex-direction: column;
@@ -436,7 +441,7 @@
         position: sticky;
         top: 0;
         z-index: 999;
-        background: rgba(13, 36, 48, .5);
+        background: rgba(13, 36, 48);
         padding: 1% 1% 1% 1%;
         display: flex;
         flex-direction: column;

@@ -35,4 +35,22 @@
         border-radius: 30px;
         margin: 15% 0% 15% 0%;
     }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 65%;
+        scale: 80%;
+        text-align: left;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+}
+
+@media only screen and (max-width: 633px) {
+    .dropdown {
+        margin: 50% 0% 0% 20%;
+    }
 }
