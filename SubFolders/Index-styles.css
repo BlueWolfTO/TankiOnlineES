@@ -78,7 +78,8 @@ header {
     background: rgba(13, 36, 48, .95);
     padding: 1% 1% 1% 1%;
     display: flex;
-    gap: 39%;
+    justify-content: center;
+    gap: 2%;
     align-items: center;
 }
 
@@ -86,91 +87,14 @@ header {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    gap: 100%;
     font-weight: bolder;
     text-transform: uppercase;
-}
-
-#Buttonplay {
-    background-color: #3bb21b;
-    padding: 1% 2% 1% 2%;
-    border: 2px solid #46df11;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-}
-
-#Buttonplay:hover {
-    cursor: pointer;
-    box-shadow: 0px 0px 13px 2px #44DC14;
-    transition: 0.5s;
 }
 
 a {
     text-decoration: none;
     color: white;
 
-}
-
-
-.menucontent:hover {
-    color: #46df11;
-    transition: 0.5s;
-}
-
-.WelcomeText {
-    color: white;
-    font-size: 150%;
-    text-align: center;
-    width: 90%;
-    margin: 4% 0% 0% 4%;
-    align-self: flex-end;
-}
-
-.Welcome-sub-text {
-    margin: 2% 0% 0% 0%;
-    text-align:justify;
-}
-
-
-
-
-#more-content-button-arrow {
-
-    text-align: center;
-    position: relative;
-    animation: mousedown infinite linear 1s;
-}
-
-#more-content-button-mouse {
-    text-align: center;
-    position: relative;
-    margin: 24% 0% 0% 0%;
-}
-
-@keyframes mousedown {
-    0% {
-        top: 0px;
-    }
-
-    50% {
-        top: 10px;
-    }
-
-    100% {
-        top: 0px;
-    }
-}
-
-.uil {
-    color: #3bb21b;
-    font-size: 300%;
-}
-
-
-
-#screen-2 {
-    margin-top: 1.5%;
 }
 
 .img-news,
@@ -252,7 +176,6 @@ ul>li {
     text-align: center;
     margin: 5% 0% 0% 0%;
     font-size: 150%;
-    visibility: hidden;
     color: white;
 }
 
@@ -262,7 +185,6 @@ ul>li {
     text-align: center;
     margin: 5% 0% 0% 0%;
     font-size: 150%;
-    visibility: hidden;
     color: white;
 }
 
@@ -270,20 +192,7 @@ ul>li {
     text-align: center;
     margin: 5% 0% 0% 0%;
     font-size: 150%;
-    visibility: hidden;
     color: white;
-}
-
-.img-newsContainer:hover .TextNews {
-    visibility: visible;
-}
-
-.img-UpdatesContainer:hover .TextUpdates {
-    visibility: visible;
-}
-
-.img-VlogsContainer:hover .TextVlogs {
-    visibility: visible;
 }
 
 .SocialmediaTO {
@@ -291,7 +200,7 @@ ul>li {
     gap: 5%;
     font-size: 150%;
     justify-content: center;
-    margin: 2% 0% 2% 0%;
+    margin: 0% 0% 0% 1%;
     color: white;
 }
 

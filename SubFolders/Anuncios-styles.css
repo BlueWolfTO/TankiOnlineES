@@ -1,29 +1,21 @@
-    .logoIMG{
+    .logoIMG {
       pointer-events: none;
     }
-    
-    .AnnouncementsColumns {
-      column-count: 3;
-      column-gap: 25px;
-      /* column-rule: 2px solid #3366FF; */
-      text-align: center;
-    }
 
-    #AnnouncementsRow {
-      background-color: antiquewhite;
-      margin: 5% 0% 5% 0%;
+    .AnnouncementsColumns {
+      display:grid;
+      grid-template-columns: repeat(3, 30%);
+      grid-template-rows: repeat(2, 1fr);
+      grid-row-start: auto;
+      justify-items: center;
     }
 
     .Announcement {
       scale: 120%;
       border-radius: 30px;
-      margin: 15% 0% 15% 0%;
+      margin: 15% 0% 15% 25%;
       filter: brightness(70%);
     }
-
-  
-
-
 
     .AnnouncementContainer:hover .centrado {
       visibility: visible;
@@ -39,9 +31,9 @@
       width: 100%;
       position: absolute;
       color: white;
-      top: 75%;
+      top: 72%;
       text-align: left;
-      left: 45%;
+      left: 70%;
       transform: translate(-50%, -50%);
       z-index: 0;
     }
@@ -50,7 +42,7 @@
       pointer-events: none;
     }
 
-    .selected-option:hover .arrow{
+    .selected-option:hover .arrow {
       transform: rotate(180deg);
     }
 
@@ -77,7 +69,7 @@
     }
 
     .selected-option {
-      background:none;
+      background: none;
       padding: 10px;
       cursor: pointer;
     }
@@ -99,9 +91,19 @@
     .option {
       padding: 10px;
       cursor: pointer;
-      color:#44DC14;
+      color: #44DC14;
 
     }
+
     .dropdown:hover .dropdown-menu {
       display: block;
+    }
+
+    .BackButton{
+      color: white;
+    }
+
+    .BackButton:hover{
+      color:#44DC14;
+      text-decoration: none;
     }
