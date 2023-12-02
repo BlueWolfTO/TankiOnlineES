@@ -3937,6 +3937,10 @@ input.support-input-modal {
     background: url(../img/twitch.svg);
 }
 
+.theme-20-x .foot-social-el.reddit {
+    background: url(../img/reddit.svg);
+}
+
 .theme-20-x .foot-social-el {
     height: 24px;
     width: 24px;
