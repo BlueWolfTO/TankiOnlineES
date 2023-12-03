@@ -59,7 +59,7 @@ body::-webkit-scrollbar-track-piece {
 }
 
 .background-midTOES {
-    background-image: url(https://en.tankiwiki.com/images/en/b/bc/Tankers_day_2022.png);
+    background-image: url(https://tankionline.com/play/static/images/background_ice_age_2023.3f8e576a.webp);
     -webkit-mask-image: linear-gradient(to top, transparent 0%, black 30%);
     mask-image: linear-gradient(to top, transparent 0%, black 30%);
     position: absolute;
