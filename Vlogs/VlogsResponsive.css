@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1560px) {
+
+    .VlogsColumns {
+        display: grid;
+        grid-template-columns: repeat(2, 32%);
+        grid-template-rows: repeat(3, 1fr);
+        grid-row-start: auto;
+        justify-items: center;
+    }
+
+    .VlogImg {
+        scale: 120%;
+        border-radius: 30px;
+        margin: 15% 0% 15% 70%;
+        filter: brightness(70%);
+      }
+}
+
+@media only screen and (max-width: 1456px) {
+
+    .VlogsColumns {
+        display: grid;
+        grid-template-columns: repeat(1, 32%);
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-start: auto;
+        justify-items: center;
+    }
+
+    .VlogImg {
+        scale: 120%;
+        border-radius: 30px;
+        margin: 15% 0% 15% 125%;
+        filter: brightness(70%);
+      }
+}
+
+@media only screen and (max-width: 1138px) {
+
+    .VlogsColumns {
+        display: grid;
+        grid-template-columns: repeat(1, 32%);
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-start: auto;
+        justify-items: center;
+    }
+
+    .VlogImg {
+        scale: 120%;
+        border-radius: 30px;
+        margin: 15% 0% 15% 100%;
+        filter: brightness(70%);
+      }
+}
+
+@media only screen and (max-width: 816px) {
+
+    .VlogsColumns {
+        display: grid;
+        grid-template-columns: repeat(1, 32%);
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-start: auto;
+        justify-items: center;
+    }
+
+    .VlogImg {
+        scale: 120%;
+        border-radius: 30px;
+        margin: 15% 0% 15% 75%;
+        filter: brightness(70%);
+      }
+}
+
+@media only screen and (max-width: 632px) {
+
+    .VlogsColumns {
+        display: grid;
+        grid-template-columns: repeat(1, 32%);
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-start: auto;
+        justify-items: center;
+    }
+
+    .VlogImg {
+        scale: 120%;
+        border-radius: 30px;
+        margin: 15% 0% 15% 55%;
+        filter: brightness(70%);
+      }
+}
+
+@media only screen and (max-width: 532px) {
+
+    .VlogsColumns {
+        display: grid;
+        grid-template-columns: repeat(1, 32%);
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-start: auto;
+        justify-items: center;
+    }
+
+    .VlogImg {
+        scale: 120%;
+        border-radius: 30px;
+        margin: 15% 0% 15% 46%;
+        filter: brightness(70%);
+      }
+}

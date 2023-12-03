@@ -1,0 +1,45 @@
+    /*logo header*/
+    .logoIMG {
+      pointer-events: none;
+    }
+
+    /*----------------*/
+
+    /*Tarjetas anuncios*/
+    .VlogsColumns {
+      display: grid;
+      grid-template-columns: repeat(3, 30%);
+      grid-template-rows: repeat(2, 1fr);
+      grid-row-start: auto;
+      justify-items: center;
+    }
+
+    .VlogImg {
+      scale: 120%;
+      border-radius: 30px;
+      margin: 15% 0% 15% 25%;
+      filter: brightness(70%);
+    }
+
+    .VlogsContainer:hover .centrado {
+      visibility: visible;
+    }
+
+    .VlogsContainer {
+      position: relative;
+      display: inline-block;
+      text-align: center;
+    }
+
+    /*----------------*/
+
+    /*boto de retorn*/
+    .BackButton {
+      color: white;
+    }
+
+    .BackButton:hover {
+      color: #44DC14;
+      text-decoration: none;
+    }
+    /*--------------------*/
