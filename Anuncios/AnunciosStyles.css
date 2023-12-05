@@ -1,3 +1,32 @@
+    /*Header*/
+   /*Header*/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: rgba(13, 36, 48, .95);
+  padding: 1% 1% 1% 1%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  align-items: center;
+}
+
+#MenuHeader {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+}
+/*------*/
+    
     /*logo header*/
     .logoIMG {
       pointer-events: none;

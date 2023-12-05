@@ -1,3 +1,14 @@
+@media only screen and (max-width: 1566px) {
+
+    #MenuHeader {
+        display: block;
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+}
+
 @media only screen and (max-width: 1479px) {
 
     .AnnouncementsColumns {
@@ -50,6 +61,23 @@
         left: 75%;
         transform: translate(-50%, -50%);
         z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 783px) {
+    .footer {
+        border-top: solid 1px #6a8b9c45;
+        color: white;
+        grid-row: 3;
+        gap: 2em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col1{
+        width: 90%;
     }
 
 }
@@ -126,6 +154,365 @@
 
 }
 
+
+@media only screen and (max-width: 509px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -60% 18% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 503px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -60% 18% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 485px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -60% 18% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 471px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -60% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 449px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -65% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 443px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -65% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 441px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -65% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 421px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -70% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+@media only screen and (max-width: 413px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -70% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+@media only screen and (max-width: 401px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -70% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 393px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -75% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 383px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -75% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 377px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -100% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+@media only screen and (max-width: 371px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -100% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 369px) {
+
+    .AnnouncementsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -100% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
 
 @media only screen and (max-width: 307px) {
 
