@@ -1,107 +1,539 @@
-@media only screen and (max-width: 1560px) {
+@media only screen and (max-width: 1566px) {
 
-    .VlogsColumns {
-        display: grid;
-        grid-template-columns: repeat(2, 32%);
-        grid-template-rows: repeat(3, 1fr);
-        grid-row-start: auto;
-        justify-items: center;
+    #MenuHeader {
+        display: block;
+        text-align: center;
+        font-weight: bolder;
+        text-transform: uppercase;
     }
 
-    .VlogImg {
-        scale: 120%;
-        border-radius: 30px;
-        margin: 15% 0% 15% 70%;
-        filter: brightness(70%);
-      }
 }
 
-@media only screen and (max-width: 1456px) {
+@media only screen and (max-width: 1479px) {
 
     .VlogsColumns {
-        display: grid;
-        grid-template-columns: repeat(1, 32%);
-        grid-template-rows: repeat(6, 1fr);
-        grid-row-start: auto;
-        justify-items: center;
+        scale: 80%;
+        gap: 10%;
+        margin: 0% 16% 1% 0%;
+        grid-template-rows: repeat(2, 45%);
     }
 
-    .VlogImg {
-        scale: 120%;
-        border-radius: 30px;
-        margin: 15% 0% 15% 125%;
-        filter: brightness(70%);
-      }
 }
 
-@media only screen and (max-width: 1138px) {
+@media only screen and (max-width: 1303px) {
 
     .VlogsColumns {
-        display: grid;
-        grid-template-columns: repeat(1, 32%);
-        grid-template-rows: repeat(6, 1fr);
-        grid-row-start: auto;
-        justify-items: center;
+        scale: 70%;
+        gap: 22%;
+        margin: 0% 27% 2% 0%;
+        grid-template-rows: repeat(2, 30%);
     }
 
-    .VlogImg {
-        scale: 120%;
-        border-radius: 30px;
-        margin: 15% 0% 15% 100%;
-        filter: brightness(70%);
-      }
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 12 0%;
+        text-align: left;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
 }
 
-@media only screen and (max-width: 816px) {
+@media only screen and (max-width: 1155px) {
 
     .VlogsColumns {
-        display: grid;
-        grid-template-columns: repeat(1, 32%);
-        grid-template-rows: repeat(6, 1fr);
-        grid-row-start: auto;
-        justify-items: center;
+        scale: 50%;
+        gap: 70%;
+        margin: -10% 45% 0% 0%;
+        grid-template-rows: repeat(2, 0%);
     }
 
-    .VlogImg {
-        scale: 120%;
-        border-radius: 30px;
-        margin: 15% 0% 15% 75%;
-        filter: brightness(70%);
-      }
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
 }
 
-@media only screen and (max-width: 632px) {
-
-    .VlogsColumns {
-        display: grid;
-        grid-template-columns: repeat(1, 32%);
-        grid-template-rows: repeat(6, 1fr);
-        grid-row-start: auto;
-        justify-items: center;
+@media only screen and (max-width: 783px) {
+    .footer {
+        border-top: solid 1px #6a8b9c45;
+        color: white;
+        grid-row: 3;
+        gap: 2em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .col1{
+        width: 90%;
     }
 
-    .VlogImg {
-        scale: 120%;
-        border-radius: 30px;
-        margin: 15% 0% 15% 55%;
-        filter: brightness(70%);
-      }
 }
 
-@media only screen and (max-width: 532px) {
+@media only screen and (max-width: 783px) {
 
     .VlogsColumns {
-        display: grid;
-        grid-template-columns: repeat(1, 32%);
-        grid-template-rows: repeat(6, 1fr);
-        grid-row-start: auto;
-        justify-items: center;
+        scale: 70%;
+        gap: 40%;
+        margin: -12% 58% 0% -5%;
+        grid-template-columns: repeat(2, 100%);
+        grid-template-rows: repeat(3, 0%);
     }
 
-    .VlogImg {
-        scale: 120%;
-        border-radius: 30px;
-        margin: 15% 0% 15% 46%;
-        filter: brightness(70%);
-      }
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 665px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 40%;
+        margin: -12% 59.5% 0% -10%;
+        grid-template-columns: repeat(2, 100%);
+        grid-template-rows: repeat(3, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 621px) {
+
+    .VlogsColumns{
+        scale: 70%;
+        gap: 20%;
+        margin: -50% 10% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 509px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -60% 18% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 503px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -60% 18% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 485px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -60% 18% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 471px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -60% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 449px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -65% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 443px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -65% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 441px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -65% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 421px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -70% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+@media only screen and (max-width: 413px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -70% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+@media only screen and (max-width: 401px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -70% 22% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 393px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -75% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 383px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -75% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 377px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -100% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+@media only screen and (max-width: 371px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -100% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 369px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -100% 25% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
+}
+
+@media only screen and (max-width: 307px) {
+
+    .VlogsColumns {
+        scale: 70%;
+        gap: 20%;
+        margin: -100% 20% 0% -10%;
+        grid-template-columns: repeat(1, 100%);
+        grid-template-rows: repeat(6, 0%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 10em;
+        font-size: 150%;
+        text-align: center;
+        left: 75%;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+
 }
