@@ -126,29 +126,6 @@
 
 }
 
-@media only screen and (max-width: 665px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 40%;
-        margin: -12% 59.5% 0% -10%;
-        grid-template-columns: repeat(2, 100%);
-        grid-template-rows: repeat(3, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
 
 @media only screen and (max-width: 307px) {
 
