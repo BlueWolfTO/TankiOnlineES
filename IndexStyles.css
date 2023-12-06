@@ -184,8 +184,7 @@ a {
     text-align: center;
 }
 
-
-ul>li {
+.ListFooter {
 
     list-style: none;
     margin-bottom: 2%;
