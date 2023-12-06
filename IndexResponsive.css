@@ -73,21 +73,22 @@
 
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 415px) {
     .newsandmore {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         justify-content: center;
         gap: 10%;
-        margin: -10% -40% 0% 0%;
-        scale: 80%;
+        margin: -10% -40% 0% -3%;
+        scale: 70%;
         font-size: 100%;
     }
+
     .TextNews {
         text-align: center;
-        margin: 1% 35% 10% 0%;
-        font-size: 170%;
+        margin: 0% 35% 20% 0%;
+        font-size: 20   0%;
         color: white;
     }
     
@@ -95,20 +96,54 @@
     
     .TextUpdates {
         text-align: center;
-        margin: 1% 35% 10% 0%;
-        font-size: 170%;
+        margin: 0% 35% 20% 0%;
+        font-size: 200%;
         color: white;
     }
     
     .TextVlogs {
         text-align: center;
-        margin: 1% 35% 10% 0%;
-        font-size: 170%;
+        margin: 0% 35% 0% 0%;
+        font-size: 200%;
         color: white;
     }
-
 }
 
+@media only screen and (max-width: 363px) {
+    .newsandmore {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: -20% -15% 0% -3%;
+        scale: 70%;
+        font-size: 100%;
+    }
+
+    .TextNews {
+        text-align: center;
+        margin: 0% 15% 20% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    
+    
+    .TextUpdates {
+        text-align: center;
+        margin: 0% 15% 20% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    .TextVlogs {
+        text-align: center;
+        margin: 0% 15% 0% 0%;
+        font-size: 200%;
+        color: white;
+    }
+}
 
 @media only screen and (max-width: 348px) {
     .newsandmore {
@@ -119,12 +154,12 @@
         gap: 10%;
         margin: -10% 0% 0% -3%;
         scale: 70%;
-        font-size: 100%;
+        font-size: 200%;
     }
     .TextNews {
         text-align: center;
         margin: 1% 0% 10% 0%;
-        font-size: 170%;
+        font-size: 100%;
         color: white;
     }
     
@@ -133,14 +168,14 @@
     .TextUpdates {
         text-align: center;
         margin: 1% 0% 10% 0%;
-        font-size: 170%;
+        font-size: 100%;
         color: white;
     }
     
     .TextVlogs {
         text-align: center;
         margin: 1% 0% 10% 0%;
-        font-size: 170%;
+        font-size: 100%;
         color: white;
     }
 
@@ -182,7 +217,7 @@
 
 }
 
-@media only screen and (max-width: 304px) {
+@media only screen and (max-width: 306px) {
     .newsandmore {
         display: flex;
         flex-direction: column;
@@ -225,13 +260,13 @@
         justify-content: space-evenly;
         justify-content: center;
         gap: 10%;
-        margin: -30% 45% 0% -3%;
-        scale: 70%;
+        margin: -10% 59% 0% -3%;
+        scale: 80%;
         font-size: 100%;
     }
     .TextNews {
         text-align: center;
-        margin: 1% -110% 60% 0%;
+        margin: 1% -170% 60% 0%;
         font-size: 170%;
         color: white;
     }
@@ -240,14 +275,50 @@
     
     .TextUpdates {
         text-align: center;
-        margin: 1% -110% 60% 0%;
+        margin: 1% -170% 60% 0%;
         font-size: 170%;
         color: white;
     }
     
     .TextVlogs {
         text-align: center;
-        margin: 1% -110% 60% 0%;
+        margin: 1% -170% 60% 0%;
+        font-size: 170%;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 302px) {
+    .newsandmore {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: -30% 40% 0% -3%;
+        scale: 70%;
+        font-size: 100%;
+    }
+    .TextNews {
+        text-align: center;
+        margin: 1% -100% 60% 0%;
+        font-size: 170%;
+        color: white;
+    }
+    
+    
+    
+    .TextUpdates {
+        text-align: center;
+        margin: 1% -100% 60% 0%;
+        font-size: 170%;
+        color: white;
+    }
+    
+    .TextVlogs {
+        text-align: center;
+        margin: 1% -100% 60% 0%;
         font-size: 170%;
         color: white;
     }
@@ -321,6 +392,150 @@
         text-align: center;
         margin: 1% -320% 60% 0%;
         font-size: 170%;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 268px) {
+    .newsandmore {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: -35% 50% 0% -3%;
+        scale: 60%;
+        font-size: 100%;
+    }
+    .TextNews {
+        text-align: center;
+        margin: 1% -170% 60% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    
+    
+    .TextUpdates {
+        text-align: center;
+        margin: 1% -170% 60% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    .TextVlogs {
+        text-align: center;
+        margin: 1% -170% 60% 0%;
+        font-size: 200%;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 240px) {
+    .newsandmore {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: -35% 70% 0% -3%;
+        scale: 60%;
+        font-size: 100%;
+    }
+    .TextNews {
+        text-align: center;
+        margin: 1% -370% 60% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    
+    
+    .TextUpdates {
+        text-align: center;
+        margin: 1% -370% 60% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    .TextVlogs {
+        text-align: center;
+        margin: 1% -370% 60% 0%;
+        font-size: 200%;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 230px) {
+    .newsandmore {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: -35% 79% 0% -3%;
+        scale: 60%;
+        font-size: 100%;
+    }
+    .TextNews {
+        text-align: center;
+        margin: 1% -560% 60% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    
+    
+    .TextUpdates {
+        text-align: center;
+        margin: 1% -560% 60% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    .TextVlogs {
+        text-align: center;
+        margin: 1% -560% 60% 0%;
+        font-size: 200%;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 226px) {
+    .newsandmore {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        justify-content: center;
+        gap: 10%;
+        margin: -60% 53% 0% -3%;
+        scale: 50%;
+        font-size: 100%;
+    }
+    .TextNews {
+        text-align: center;
+        margin: 1% -230% 100% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    
+    
+    .TextUpdates {
+        text-align: center;
+        margin: 1% -230% 100% 0%;
+        font-size: 200%;
+        color: white;
+    }
+    
+    .TextVlogs {
+        text-align: center;
+        margin: 1% -230% 60% 0%;
+        font-size: 200%;
         color: white;
     }
 
