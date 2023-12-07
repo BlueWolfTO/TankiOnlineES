@@ -1,32 +1,5 @@
     /*Header*/
-   /*Header*/
-header {
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  background: rgba(13, 36, 48, .95);
-  padding: 1% 1% 1% 1%;
-  display: flex;
-  justify-content: center;
-  gap: 2%;
-  align-items: center;
-}
 
-#MenuHeader {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  font-weight: bolder;
-  text-transform: uppercase;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-
-}
-/*------*/
-    
     /*logo header*/
     .logoIMG {
       pointer-events: none;
@@ -38,7 +11,7 @@ a {
     .AnnouncementsColumns {
       display: grid;
       grid-template-columns: repeat(3, 30%);
-      grid-template-rows: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
       grid-row-start: auto;
       justify-items: center;
     }
@@ -86,4 +59,11 @@ a {
       color: #44DC14;
       text-decoration: none;
     }
+
     /*--------------------*/
+
+    /*FOOTER*/
+    .ListFooter {
+      list-style: none;
+      margin-bottom: 2%;
+    }
