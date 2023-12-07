@@ -1,539 +1,169 @@
-@media only screen and (max-width: 1566px) {
-
-    #MenuHeader {
-        display: block;
-        text-align: center;
-        font-weight: bolder;
-        text-transform: uppercase;
+@media only screen and (max-width: 1235px) {
+    .AnnouncementsColumns {
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: repeat(3, 30%);
+        grid-row-start: auto;
+        justify-items: center;
+        gap: 10px;
+        position: relative;
     }
 
+    .Announcement {
+        scale: 100%;
+        border-radius: 30px;
+        margin: 15% 0% 5% 0%;
+        filter: brightness(50%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 80%;
+        text-align: center;
+        font-size: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
 }
 
-@media only screen and (max-width: 1479px) {
-
+@media only screen and (max-width: 1179px) {
     .AnnouncementsColumns {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-template-rows: repeat(3, 25%);
+        grid-row-start: auto;
+        justify-items: center;
+        gap: 10px;
+        position: relative;
+    }
+
+    .Announcement {
         scale: 80%;
-        gap: 10%;
-        margin: 0% 16% 1% 0%;
-        grid-template-rows: repeat(2, 45%);
-    }
-
-}
-
-@media only screen and (max-width: 1303px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 22%;
-        margin: 0% 27% 2% 0%;
-        grid-template-rows: repeat(2, 30%);
+        border-radius: 30px;
+        margin: 30% 0% 0% 15%;
+        filter: brightness(50%);
     }
 
     .centrado {
         width: 100%;
         position: absolute;
         color: white;
-        top: 12 0%;
-        text-align: left;
-        left: 70%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 1155px) {
-
-    .AnnouncementsColumns {
-        scale: 50%;
-        gap: 70%;
-        margin: -10% 45% 0% 0%;
-        grid-template-rows: repeat(2, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
+        top: 105%;
         text-align: center;
-        left: 75%;
+        font-size: 80%;
+        left: 62%;
         transform: translate(-50%, -50%);
-        z-index: 0;
+        z-index: 1;
     }
-
 }
 
-@media only screen and (max-width: 783px) {
+
+@media only screen and (max-width: 949px) {
+    .AnnouncementsColumns {
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(5, 15%);
+        grid-row-start: auto;
+        justify-items: center;
+        gap: 10px;
+        position: relative;
+    }
+
+    .Announcement {
+        scale: 80%;
+        border-radius: 30px;
+        margin: 10% 0% 0% 10%;
+        filter: brightness(50%);
+    }
+
+    .centrado {
+        width: 100%;
+        position: absolute;
+        color: white;
+        top: 100%;
+        text-align: center;
+        font-size: 80%;
+        left: 59%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 786px) {
+
     .footer {
         border-top: solid 1px #6a8b9c45;
         color: white;
-        grid-row: 3;
-        gap: 2em;
+        columns: 2;
         text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .col1{
-        width: 90%;
-    }
 
 }
 
-@media only screen and (max-width: 783px) {
-
+@media only screen and (max-width: 639px) {
     .AnnouncementsColumns {
-        scale: 70%;
-        gap: 40%;
-        margin: -12% 58% 0% -5%;
-        grid-template-columns: repeat(2, 100%);
-        grid-template-rows: repeat(3, 0%);
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(5, 15%);
+        grid-row-start: auto;
+        justify-items: center;
+        gap: 10px;
+        position: relative;
+    }
+
+    .Announcement {
+        scale: 60%;
+        border-radius: 30px;
+        margin: 10% 0% 0% 10%;
+        filter: brightness(50%);
     }
 
     .centrado {
         width: 100%;
         position: absolute;
         color: white;
-        top: 10em;
-        font-size: 150%;
+        top: 95%;
         text-align: center;
-        left: 75%;
+        font-size: 60%;
+        left: 59%;
         transform: translate(-50%, -50%);
-        z-index: 0;
+        z-index: 1;
     }
-
 }
 
-@media only screen and (max-width: 665px) {
-
+@media only screen and (max-width: 469px) {
     .AnnouncementsColumns {
-        scale: 70%;
-        gap: 40%;
-        margin: -12% 59.5% 0% -10%;
-        grid-template-columns: repeat(2, 100%);
-        grid-template-rows: repeat(3, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 621px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -50% 10% 0% -10%;
+        display: grid;
         grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
+        grid-template-rows: repeat(9, 10%);
+        grid-row-start: auto;
+        justify-items: center;
+        gap: 10px;
+        position: relative;
+    }
+
+    .Announcement {
+        scale: 60%;
+        border-radius: 30px;
+        margin: 10% 0% 0% 0%;
+        filter: brightness(50%);
     }
 
     .centrado {
         width: 100%;
         position: absolute;
         color: white;
-        top: 10em;
-        font-size: 150%;
+        top: 75%;
         text-align: center;
-        left: 75%;
+        font-size: 80%;
+        left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 0;
+        z-index: 1;
     }
-
-}
-
-
-@media only screen and (max-width: 509px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -60% 18% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 503px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -60% 18% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 485px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -60% 18% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 471px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -60% 22% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 449px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -65% 22% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 443px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -65% 22% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-
-@media only screen and (max-width: 441px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -65% 22% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-
-@media only screen and (max-width: 421px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -70% 22% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-@media only screen and (max-width: 413px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -70% 22% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-@media only screen and (max-width: 401px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -70% 22% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 393px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -75% 25% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 383px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -75% 25% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 377px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -100% 25% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-@media only screen and (max-width: 371px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -100% 25% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 369px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -100% 25% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
-}
-
-@media only screen and (max-width: 307px) {
-
-    .AnnouncementsColumns {
-        scale: 70%;
-        gap: 20%;
-        margin: -100% 20% 0% -10%;
-        grid-template-columns: repeat(1, 100%);
-        grid-template-rows: repeat(6, 0%);
-    }
-
-    .centrado {
-        width: 100%;
-        position: absolute;
-        color: white;
-        top: 10em;
-        font-size: 150%;
-        text-align: center;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        z-index: 0;
-    }
-
 }
