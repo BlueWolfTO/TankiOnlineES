@@ -76,6 +76,7 @@ body::-webkit-scrollbar-track-piece {
     background: rgba(30, 57, 78);
     opacity: .85;
 }
+
 /*----*/
 
 
@@ -105,6 +106,7 @@ a {
     color: white;
 
 }
+
 /*------*/
 
 
@@ -114,6 +116,8 @@ a {
 .img-vlogs {
     border-radius: 10px;
 }
+
+
 
 .img-news:hover {
     cursor: pointer;
@@ -163,6 +167,7 @@ a {
     font-size: 150%;
     color: white;
 }
+
 /*----------------------*/
 
 /*Footer*/
@@ -247,14 +252,17 @@ a {
     color: #6441a5;
     transition: 0.5s;
 }
+
 /*------*/
 
 /*Botó de tornada*/
 .BackButton {
     color: white;
 }
+
 .BackButton:hover {
     color: #46df11;
     text-decoration: none;
 }
+
 /*----------------*/
