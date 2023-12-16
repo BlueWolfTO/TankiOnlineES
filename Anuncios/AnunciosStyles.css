@@ -6,50 +6,118 @@
     }
 
     /*----------------*/
-
-    /*Tarjetas anuncios*/
-    .AnnouncementsColumns {
-      display: grid;
-      grid-template-columns: repeat(3, 30%);
-      grid-template-rows: repeat(3, 1fr);
-      grid-row-start: auto;
-      justify-items: center;
-      position: relative;
+    /*Anuncis*/
+    .AnnouncementContainer {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2%;
     }
 
     .Announcement {
-      scale: 100%;
-      border-radius: 30px;
-      margin: 15% 0% 15% 25%;
-      filter: brightness(50%);
+      background-color: red;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      width: 30%;
+      margin: 0% 0% 2% 34%;
+      padding: 3% 0% 3% 1%;
     }
 
-    .AnnouncementContainer:hover .centrado {
-      visibility: visible;
+    .Announcement:hover {
+      scale: 110%;
+      transition: 0.5s;
     }
 
-    .AnnouncementContainer {
-      position: relative;
+
+    .TitleDate > sub {
+      margin: 3% 0% 0% 1%;
+    }
+    
+    .Announcement:hover{
+      cursor: pointer;
     }
 
-    .centrado {
-      width: 100%;
-      position: absolute;
+    #GameReturn{
+      background-image: linear-gradient(
+        rgba(13, 36, 48, .5), 
+        rgba(13, 36, 48, .5)
+      ),url("https://tankionline.com/en/wp-content/uploads/2022/12/game_is_back_december_2022_news_740_EN.jpg");
+      background-position: center;
+      background-size: cover;
       color: white;
-      top: 70%;
-      text-align: center;
-      font-size: 100%;
-      left: 75%;
-      transform: translate(-50%, -50%);
-      z-index: 1;
     }
 
-    .centrado:hover {
-      pointer-events: none;
+  
+    #ChallengeAccepted2{
+      background-image: linear-gradient(
+        rgba(13, 36, 48, .5), 
+        rgba(13, 36, 48, .5)
+      ),url("https://tankionline.com/en/wp-content/uploads/2022/08/challenge_accepted_2022_august_1_news_740_NOT.png");
+      background-position: center;
+      background-size: cover;
+      color: white;
     }
 
-    /*----------------*/
+    #TechnicalMaintenance{
+      background-image: linear-gradient(
+        rgba(13, 36, 48, .5), 
+        rgba(13, 36, 48, .5)
+      ),url("https://tankionline.com/en/wp-content/uploads/2023/11/ice_age_2023_md02i_news_740_EN.png");
+      background-position: center;
+      background-size: cover;
+      color: white;
+    }
 
+    #BlackFriday{
+      background-image: linear-gradient(
+        rgba(13, 36, 48, .5), 
+        rgba(13, 36, 48, .5)
+      ),url("https://tankionline.com/en/wp-content/uploads/2023/11/black_friday_2023_1eoi0_news_740_EN.jpg");
+      background-position: center;
+      background-size: cover;
+      color: white;
+    }
+
+    #TankiOnlineReddit{
+      background-image: linear-gradient(
+        rgba(13, 36, 48, .5), 
+        rgba(13, 36, 48, .5)
+      ),url("https://tankionline.com/en/wp-content/uploads/2023/11/reddit_tanki_2023_news_740.jpg");
+      background-position: center;
+      background-size: cover;
+      color: white;
+    }
+
+    #ChallengeAccepted1{
+      background-image: linear-gradient(
+        rgba(13, 36, 48, .5), 
+        rgba(13, 36, 48, .5)
+      ),url("https://tankionline.com/en/wp-content/uploads/2022/07/Challenge_accepted_news_740x504_2.png");
+      background-position: center;
+      background-size: cover;
+      color: white;
+    }
+
+    #TankiFund2023{
+      background-image: linear-gradient(
+        rgba(13, 36, 48, .5), 
+        rgba(13, 36, 48, .5)
+      ),url("https://tankionline.com/en/wp-content/uploads/2023/07/summer_major_2023_tanki_fund_giveaway_fw9qf_news_740_EN.png");
+      background-position: center;
+      background-size: cover;
+      color: white;
+    }
+
+    #NewLanguages{
+      background-image: linear-gradient(
+        rgba(13, 36, 48, .5), 
+        rgba(13, 36, 48, .5)
+      ),url("https://tankionline.com/en/wp-content/uploads/2023/11/pl_fr_alert_740_news.png");
+      background-position: center;
+      background-size: cover;
+      color: white;
+    }
+
+    /*------------*/
     /*boto de retorn*/
     .BackButton {
       color: white;
