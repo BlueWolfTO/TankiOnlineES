@@ -1,116 +1,113 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
-}    
-    
+}
 
-    /*Vlogs*/
-    .VlogsContainer {
-      display: flex;
-      flex-direction: column;
-      margin-top: 2%;
-    }
 
-    .Vlog {
-      background-color: red;
-      background-repeat: no-repeat;
-      border-radius: 10px;
-      width: 30%;
-      margin: 0% 0% 2% 34%;
-      padding: 3% 0% 3% 1%;
-    }
+/*Vlogs*/
+.VlogsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
 
-    .Vlog:hover {
-      scale: 110%;
-      transition: 0.5s;
-    }
+.Vlog {
+  background-color: red;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  width: 30%;
+  margin: 0% 0% 2% 34%;
+  padding: 3% 0% 3% 1%;
+}
 
-    .VlogsContainer:hover {
-      cursor: pointer;
-    }
+.Vlog:hover {
+  scale: 110%;
+  transition: 0.5s;
+}
 
-    #Vlog496{
-      background-image: linear-gradient(
-        rgba(13, 36, 48, .5), 
-        rgba(13, 36, 48, .5)
-      ),url("https://img.youtube.com/vi/TmevnczrO-M/maxresdefault.jpg");
-      background-position: top;
-      background-size: cover;
-      color: white;
-    }
+.VlogsContainer:hover {
+  cursor: pointer;
+}
 
-  
-    #Vlog495{
-      background-image: linear-gradient(
-        rgba(13, 36, 48, .5), 
-        rgba(13, 36, 48, .5)
-      ),url("https://img.youtube.com/vi/W_mH8-itnZI/maxresdefault.jpg");
-      background-position: top;
-      background-size: cover;
-      color: white;
-    }
+#Vlog497 {
+  background-image: linear-gradient(rgba(13, 36, 48, .5),
+      rgba(13, 36, 48, .5)), url("https://img.youtube.com/vi/ixkGftEScYk/maxresdefault.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
 
-    #Vlog494{
-      background-image: linear-gradient(
-        rgba(13, 36, 48, .5), 
-        rgba(13, 36, 48, .5)
-      ),url("https://img.youtube.com/vi/w6mmOmxhi0U/maxresdefault.jpg");
-      background-position: top;
-      background-size: cover;
-      color: white;
-    }
-
-    #Vlog493{
-      background-image: linear-gradient(
-        rgba(13, 36, 48, .5), 
-        rgba(13, 36, 48, .5)
-      ),url("https://img.youtube.com/vi/Mbz5SRyivsE/maxresdefault.jpg");
-      background-position: top;
-      background-size: cover;
-      color: white;
-    }
-
-    #Vlog492{
-      background-image: linear-gradient(
-        rgba(13, 36, 48, .5), 
-        rgba(13, 36, 48, .5)
-      ),url("https://img.youtube.com/vi/_CnBOIarUps/maxresdefault.jpg");
-      background-position: top;
-      background-size: cover;
-      color: white;
-    }
-
-    #Vlog491{
-      background-image: linear-gradient(
-        rgba(13, 36, 48, .5), 
-        rgba(13, 36, 48, .5)
-      ),url("https://img.youtube.com/vi/muLbp9OGfNM/maxresdefault.jpg");
-      background-position: top;
-      background-size: cover;
-      color: white;
-    }
-
-    #Vlog490{
-      background-image: linear-gradient(
-        rgba(13, 36, 48, .5), 
-        rgba(13, 36, 48, .5)
-      ),url("https://img.youtube.com/vi/nI3qcJs-8ws/maxresdefault.jpg");
-      background-position: top;
-      background-size: cover;
-      color: white;
-    }
-    /*------------*/
+#Vlog496 {
+  background-image: linear-gradient(rgba(13, 36, 48, .5),
+      rgba(13, 36, 48, .5)), url("https://img.youtube.com/vi/TmevnczrO-M/maxresdefault.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
 
 
 
-    /*boto de retorn*/
-    .BackButton {
-      color: white;
-    }
 
-    .BackButton:hover {
-      color: #44DC14;
-      text-decoration: none;
-    }
+#Vlog495 {
+  background-image: linear-gradient(rgba(13, 36, 48, .5),
+      rgba(13, 36, 48, .5)), url("https://img.youtube.com/vi/W_mH8-itnZI/maxresdefault.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
 
-    /*--------------------*/
+#Vlog494 {
+  background-image: linear-gradient(rgba(13, 36, 48, .5),
+      rgba(13, 36, 48, .5)), url("https://img.youtube.com/vi/w6mmOmxhi0U/maxresdefault.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+#Vlog493 {
+  background-image: linear-gradient(rgba(13, 36, 48, .5),
+      rgba(13, 36, 48, .5)), url("https://img.youtube.com/vi/Mbz5SRyivsE/maxresdefault.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+#Vlog492 {
+  background-image: linear-gradient(rgba(13, 36, 48, .5),
+      rgba(13, 36, 48, .5)), url("https://img.youtube.com/vi/_CnBOIarUps/maxresdefault.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+#Vlog491 {
+  background-image: linear-gradient(rgba(13, 36, 48, .5),
+      rgba(13, 36, 48, .5)), url("https://img.youtube.com/vi/muLbp9OGfNM/maxresdefault.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+#Vlog490 {
+  background-image: linear-gradient(rgba(13, 36, 48, .5),
+      rgba(13, 36, 48, .5)), url("https://img.youtube.com/vi/nI3qcJs-8ws/maxresdefault.jpg");
+  background-position: top;
+  background-size: cover;
+  color: white;
+}
+
+/*------------*/
+
+
+
+/*boto de retorn*/
+.BackButton {
+  color: white;
+}
+
+.BackButton:hover {
+  color: #44DC14;
+  text-decoration: none;
+}
+
+/*--------------------*/
