@@ -36,6 +36,16 @@
       cursor: pointer;
     }
 
+    #FestiveSeason{
+      background-image: linear-gradient(
+        rgba(13, 36, 48, .5), 
+        rgba(13, 36, 48, .5)
+      ),url("https://tankionline.com/en/wp-content/uploads/2023/12/festive_season_2023_jioe9_news_740_EN.png");
+      background-position: center;
+      background-size: cover;
+      color: white;
+    }
+
     #GameReturn{
       background-image: linear-gradient(
         rgba(13, 36, 48, .5), 
