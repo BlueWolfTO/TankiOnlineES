@@ -1,43 +1,36 @@
-@media only screen and (max-width: 1515px){
-    .Announcement {
-        background-color: red;
-        background-repeat: no-repeat;
-        border-radius: 10px;
-        width: 37%;
-        margin: 0% 0% 2% 34%;
-        padding: 3% 0% 3% 1%;
-      }
+@media only screen and (max-width: 937px) {
+  .Announcement {
+    background-color: red;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 50%;
+    margin: 0% 0% 2% 25%;
+    padding: 3% 0% 3% 1%;
+  }
+
 }
 
-@media only screen and (max-width: 1515px){
-    .Announcement {
-        background-color: red;
-        background-repeat: no-repeat;
-        border-radius: 10px;
-        width: 43%;
-        margin: 0% 0% 2% 34%;
-        padding: 3% 0% 3% 1%;
-      }
+@media only screen and (max-width: 577px) {
+  .Announcement {
+    background-color: red;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0% 0% 2% 10%;
+    padding: 3% 0% 3% 1%;
+  }
+
 }
 
-@media only screen and (max-width: 1121px){
-    .Announcement {
-        background-color: red;
-        background-repeat: no-repeat;
-        border-radius: 10px;
-        width: 50%;
-        margin: 0% 0% 2% 34%;
-        padding: 3% 0% 3% 1%;
-      }
+@media only screen and (max-width: 437px) {
+  .footer {
+    border-top: solid 1px #6a8b9c45;
+    color: white;
+    columns: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-@media only screen and (max-width: 1053px){
-    .Announcement {
-        background-color: red;
-        background-repeat: no-repeat;
-        border-radius: 10px;
-        width: 55%;
-        margin: 0% 0% 2% 34%;
-        padding: 3% 0% 3% 1%;
-      }
 }
