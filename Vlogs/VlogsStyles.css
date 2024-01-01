@@ -23,9 +23,6 @@
 .Vlog:hover {
   scale: 110%;
   transition: 0.5s;
-}
-
-.VlogsContainer:hover {
   cursor: pointer;
 }
 
